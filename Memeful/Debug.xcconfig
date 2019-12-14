@@ -1,0 +1,18 @@
+//
+//  Debug.xcconfig
+//  Memeful
+//
+//  Created by Koushik Dutta on 14/12/19.
+//  Copyright © 2019 Koushik Dutta. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+API_PROTOCOL = https
+API_BASE_URL = api.imgur.com
+API_VERSION = 3
+CLIENT_ID = afe55e308b16745
+CLIENT_SECRET = 36665f04a28370499b4772ee386b53d19678020d
+REFRESH_TOKEN = b76f6305533ed00ba9078b7992619f46020f5a84
+ACCESS_TOKEN = fcc3e70be649b702a012c60e523305cf12609143
