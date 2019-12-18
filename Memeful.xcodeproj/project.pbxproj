@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7045D89923A8E7F400FB919C /* PostWithCommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7045D89823A8E7F400FB919C /* PostWithCommentsViewController.swift */; };
+		70D30D4623A94881008F88A6 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70D30D4523A94881008F88A6 /* Login.storyboard */; };
+		70D30D4823A9580C008F88A6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D30D4723A9580C008F88A6 /* LoginViewController.swift */; };
 		70F2D56F23A4EB2300CBCDF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F2D56E23A4EB2300CBCDF4 /* AppDelegate.swift */; };
 		70F2D57623A4EB2300CBCDF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70F2D57423A4EB2300CBCDF4 /* Main.storyboard */; };
 		70F2D57823A4EB2A00CBCDF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70F2D57723A4EB2A00CBCDF4 /* Assets.xcassets */; };
@@ -14,12 +17,23 @@
 		70F2D58923A4F24000CBCDF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70F2D58823A4F24000CBCDF4 /* LaunchScreen.storyboard */; };
 		70F2D58C23A53AAB00CBCDF4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F2D58B23A53AAB00CBCDF4 /* NetworkManager.swift */; };
 		70F2D58E23A53B7900CBCDF4 /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F2D58D23A53B7900CBCDF4 /* PostModel.swift */; };
-		70F2D59023A542CC00CBCDF4 /* RequestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F2D58F23A542CC00CBCDF4 /* RequestHelper.swift */; };
 		70F2D59223A5568E00CBCDF4 /* MostViralPostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F2D59123A5568E00CBCDF4 /* MostViralPostsViewController.swift */; };
 		70F2D59423A559ED00CBCDF4 /* MostViralPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F2D59323A559ED00CBCDF4 /* MostViralPostViewModel.swift */; };
+		70F2D59623A56A3500CBCDF4 /* MostViralPostsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F2D59523A56A3500CBCDF4 /* MostViralPostsCollectionViewCell.swift */; };
+		70F8EA6A23AA4683006A0E32 /* APIDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F8EA6923AA4683006A0E32 /* APIDetails.swift */; };
+		86741D3223A7ABA00026AC64 /* MemeCellLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86741D3123A7ABA00026AC64 /* MemeCellLayout.swift */; };
+		86E2084E23A7BA8000E861F6 /* PostImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E2084D23A7BA8000E861F6 /* PostImageTableViewCell.swift */; };
+		86E2085023A7BAA900E861F6 /* BestCommentsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E2084F23A7BAA900E861F6 /* BestCommentsTableViewCell.swift */; };
+		86E2085523A7C50200E861F6 /* PostDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E2085423A7C50200E861F6 /* PostDetailsModel.swift */; };
+		86E2085823A7C56500E861F6 /* PostDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E2085723A7C56500E861F6 /* PostDetailsViewModel.swift */; };
+		C51027C5336A3F5DE62B9904 /* Pods_Memeful.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798124267C35E990A9182C34 /* Pods_Memeful.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05181F9BE9B94485D277D5DA /* Pods-Memeful.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memeful.release.xcconfig"; path = "Target Support Files/Pods-Memeful/Pods-Memeful.release.xcconfig"; sourceTree = "<group>"; };
+		7045D89823A8E7F400FB919C /* PostWithCommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostWithCommentsViewController.swift; sourceTree = "<group>"; };
+		70D30D4523A94881008F88A6 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		70D30D4723A9580C008F88A6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		70F2D56B23A4EB2300CBCDF4 /* Memeful.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memeful.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70F2D56E23A4EB2300CBCDF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70F2D57523A4EB2300CBCDF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -27,12 +41,19 @@
 		70F2D57C23A4EB2A00CBCDF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70F2D58623A4F13200CBCDF4 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		70F2D58823A4F24000CBCDF4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		70F2D58A23A530BA00CBCDF4 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		70F2D58B23A53AAB00CBCDF4 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		70F2D58D23A53B7900CBCDF4 /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
-		70F2D58F23A542CC00CBCDF4 /* RequestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHelper.swift; sourceTree = "<group>"; };
 		70F2D59123A5568E00CBCDF4 /* MostViralPostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostViralPostsViewController.swift; sourceTree = "<group>"; };
 		70F2D59323A559ED00CBCDF4 /* MostViralPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostViralPostViewModel.swift; sourceTree = "<group>"; };
+		70F2D59523A56A3500CBCDF4 /* MostViralPostsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostViralPostsCollectionViewCell.swift; sourceTree = "<group>"; };
+		70F8EA6923AA4683006A0E32 /* APIDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIDetails.swift; sourceTree = "<group>"; };
+		798124267C35E990A9182C34 /* Pods_Memeful.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Memeful.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86741D3123A7ABA00026AC64 /* MemeCellLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeCellLayout.swift; sourceTree = "<group>"; };
+		86E2084D23A7BA8000E861F6 /* PostImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostImageTableViewCell.swift; sourceTree = "<group>"; };
+		86E2084F23A7BAA900E861F6 /* BestCommentsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestCommentsTableViewCell.swift; sourceTree = "<group>"; };
+		86E2085423A7C50200E861F6 /* PostDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailsModel.swift; sourceTree = "<group>"; };
+		86E2085723A7C56500E861F6 /* PostDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailsViewModel.swift; sourceTree = "<group>"; };
+		B2B0C7DA42F7BAB2AB50238B /* Pods-Memeful.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Memeful.debug.xcconfig"; path = "Target Support Files/Pods-Memeful/Pods-Memeful.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,17 +61,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C51027C5336A3F5DE62B9904 /* Pods_Memeful.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		44BCC1FB622A81895719FF60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2B0C7DA42F7BAB2AB50238B /* Pods-Memeful.debug.xcconfig */,
+				05181F9BE9B94485D277D5DA /* Pods-Memeful.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		707E368923A801F100FCA5F7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				70F2D59123A5568E00CBCDF4 /* MostViralPostsViewController.swift */,
+				7045D89823A8E7F400FB919C /* PostWithCommentsViewController.swift */,
+				70D30D4723A9580C008F88A6 /* LoginViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		70F2D56223A4EB2300CBCDF4 = {
 			isa = PBXGroup;
 			children = (
 				70F2D56D23A4EB2300CBCDF4 /* Memeful */,
 				70F2D56C23A4EB2300CBCDF4 /* Products */,
+				44BCC1FB622A81895719FF60 /* Pods */,
+				D53AE093A2D44098148A12B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,20 +108,66 @@
 		70F2D56D23A4EB2300CBCDF4 /* Memeful */ = {
 			isa = PBXGroup;
 			children = (
+				707E368923A801F100FCA5F7 /* Controllers */,
+				86E2085623A7C54700E861F6 /* ViewModels */,
+				86E2085323A7C4DF00E861F6 /* Models */,
+				86E2084A23A7B97700E861F6 /* CustomCells */,
+				86741D3023A7AB6F0026AC64 /* CustomLayout */,
 				70F2D56E23A4EB2300CBCDF4 /* AppDelegate.swift */,
 				70F2D58623A4F13200CBCDF4 /* SceneDelegate.swift */,
-				70F2D59123A5568E00CBCDF4 /* MostViralPostsViewController.swift */,
 				70F2D57423A4EB2300CBCDF4 /* Main.storyboard */,
+				70D30D4523A94881008F88A6 /* Login.storyboard */,
 				70F2D58823A4F24000CBCDF4 /* LaunchScreen.storyboard */,
 				70F2D57723A4EB2A00CBCDF4 /* Assets.xcassets */,
 				70F2D57C23A4EB2A00CBCDF4 /* Info.plist */,
-				70F2D58A23A530BA00CBCDF4 /* Debug.xcconfig */,
 				70F2D58B23A53AAB00CBCDF4 /* NetworkManager.swift */,
-				70F2D58D23A53B7900CBCDF4 /* PostModel.swift */,
-				70F2D58F23A542CC00CBCDF4 /* RequestHelper.swift */,
-				70F2D59323A559ED00CBCDF4 /* MostViralPostViewModel.swift */,
+				70F8EA6923AA4683006A0E32 /* APIDetails.swift */,
 			);
 			path = Memeful;
+			sourceTree = "<group>";
+		};
+		86741D3023A7AB6F0026AC64 /* CustomLayout */ = {
+			isa = PBXGroup;
+			children = (
+				86741D3123A7ABA00026AC64 /* MemeCellLayout.swift */,
+			);
+			path = CustomLayout;
+			sourceTree = "<group>";
+		};
+		86E2084A23A7B97700E861F6 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				70F2D59523A56A3500CBCDF4 /* MostViralPostsCollectionViewCell.swift */,
+				86E2084D23A7BA8000E861F6 /* PostImageTableViewCell.swift */,
+				86E2084F23A7BAA900E861F6 /* BestCommentsTableViewCell.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		86E2085323A7C4DF00E861F6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				86E2085423A7C50200E861F6 /* PostDetailsModel.swift */,
+				70F2D58D23A53B7900CBCDF4 /* PostModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		86E2085623A7C54700E861F6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				70F2D59323A559ED00CBCDF4 /* MostViralPostViewModel.swift */,
+				86E2085723A7C56500E861F6 /* PostDetailsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D53AE093A2D44098148A12B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				798124267C35E990A9182C34 /* Pods_Memeful.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -88,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70F2D57F23A4EB2A00CBCDF4 /* Build configuration list for PBXNativeTarget "Memeful" */;
 			buildPhases = (
+				2AAB3E986235A7B1B32ED11A /* [CP] Check Pods Manifest.lock */,
 				70F2D56723A4EB2300CBCDF4 /* Sources */,
 				70F2D56823A4EB2300CBCDF4 /* Frameworks */,
 				70F2D56923A4EB2300CBCDF4 /* Resources */,
+				4967DAF9A04166D794D45991 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -139,6 +230,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70D30D4623A94881008F88A6 /* Login.storyboard in Resources */,
 				70F2D58923A4F24000CBCDF4 /* LaunchScreen.storyboard in Resources */,
 				70F2D57823A4EB2A00CBCDF4 /* Assets.xcassets in Resources */,
 				70F2D57623A4EB2300CBCDF4 /* Main.storyboard in Resources */,
@@ -147,15 +239,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2AAB3E986235A7B1B32ED11A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Memeful-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4967DAF9A04166D794D45991 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Memeful/Pods-Memeful-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Memeful/Pods-Memeful-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Memeful/Pods-Memeful-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		70F2D56723A4EB2300CBCDF4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86E2085523A7C50200E861F6 /* PostDetailsModel.swift in Sources */,
+				86E2084E23A7BA8000E861F6 /* PostImageTableViewCell.swift in Sources */,
+				86E2085023A7BAA900E861F6 /* BestCommentsTableViewCell.swift in Sources */,
+				70D30D4823A9580C008F88A6 /* LoginViewController.swift in Sources */,
 				70F2D58C23A53AAB00CBCDF4 /* NetworkManager.swift in Sources */,
+				86E2085823A7C56500E861F6 /* PostDetailsViewModel.swift in Sources */,
+				7045D89923A8E7F400FB919C /* PostWithCommentsViewController.swift in Sources */,
 				70F2D58E23A53B7900CBCDF4 /* PostModel.swift in Sources */,
+				70F2D59623A56A3500CBCDF4 /* MostViralPostsCollectionViewCell.swift in Sources */,
+				86741D3223A7ABA00026AC64 /* MemeCellLayout.swift in Sources */,
 				70F2D59423A559ED00CBCDF4 /* MostViralPostViewModel.swift in Sources */,
-				70F2D59023A542CC00CBCDF4 /* RequestHelper.swift in Sources */,
+				70F8EA6A23AA4683006A0E32 /* APIDetails.swift in Sources */,
 				70F2D59223A5568E00CBCDF4 /* MostViralPostsViewController.swift in Sources */,
 				70F2D56F23A4EB2300CBCDF4 /* AppDelegate.swift in Sources */,
 				70F2D58723A4F13200CBCDF4 /* SceneDelegate.swift in Sources */,
@@ -178,7 +320,7 @@
 /* Begin XCBuildConfiguration section */
 		70F2D57D23A4EB2A00CBCDF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70F2D58A23A530BA00CBCDF4 /* Debug.xcconfig */;
+			baseConfigurationReference = B2B0C7DA42F7BAB2AB50238B /* Pods-Memeful.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -239,6 +381,7 @@
 		};
 		70F2D57E23A4EB2A00CBCDF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05181F9BE9B94485D277D5DA /* Pods-Memeful.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -293,7 +436,7 @@
 		};
 		70F2D58023A4EB2A00CBCDF4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 70F2D58A23A530BA00CBCDF4 /* Debug.xcconfig */;
+			baseConfigurationReference = B2B0C7DA42F7BAB2AB50238B /* Pods-Memeful.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -311,6 +454,7 @@
 		};
 		70F2D58123A4EB2A00CBCDF4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05181F9BE9B94485D277D5DA /* Pods-Memeful.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
